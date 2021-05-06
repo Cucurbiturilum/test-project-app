@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Sneak';
+    src: url('Sneak-Black.woff2') format('woff2'),
+        url('Sneak-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sneak';
+    src: url('Sneak-Bold.woff2') format('woff2'),
+        url('Sneak-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sneak';
+    src: url('Sneak-Light.woff2') format('woff2'),
+        url('Sneak-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sneak Mono';
+    src: url('Sneak-Mono.woff2') format('woff2'),
+        url('Sneak-Mono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sneak';
+    src: url('Sneak-Regular.woff2') format('woff2'),
+        url('Sneak-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sneak';
+    src: url('Sneak-Medium.woff2') format('woff2'),
+        url('Sneak-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
