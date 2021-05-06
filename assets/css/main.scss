@@ -5,6 +5,9 @@ $title-dark: #2E2E2E;
 $charcoal: #464646;
 $gray: #7E7E7E;
 $night-ride: #2E2E2E;
+.bg-grey {
+  background-color: #fcfcfc;
+}
 
 // Grid
 $bp-sm: 48rem; // 768px
@@ -26,7 +29,7 @@ $mq-xxl: "(min-width: #{$bp-xxl})";
 // Font size
 $base-font-size: 1rem;
 
-*{
+* {
   font-family: "Sneak", sans-serif;
 }
 
@@ -43,7 +46,42 @@ $base-font-size: 1rem;
   }
 }
 
-.main-text{
+.pre-title {
+  text-transform: uppercase;
+  color: $violet;
+  letter-spacing: 0.01rem;
+  font-size: 3.7vw;
+  margin-bottom: 0.5rem;
+  @media #{$mq-sm} {
+    font-size: $base-font-size*0.75;
+  }
+  @media #{$mq-xxl} {
+    font-size: $base-font-size*1.5;
+    margin-bottom: 1rem;
+  }
+}
+
+.section-title {
+  color: $night-ride;
+  font-size: 7vw;
+  font-weight: bold;
+  max-width: 20rem;
+  line-height: 1.4;
+  @media #{$mq-sm} {
+    font-size: $base-font-size*1.5;
+    margin-bottom: 1rem;
+  }
+  @media #{$mq-md} {
+    font-size: $base-font-size*2;
+  }
+  @media #{$mq-xxl} {
+    font-size: $base-font-size*4;
+    margin-bottom: 2rem;
+    max-width: 40rem;
+  }
+}
+
+.main-text {
   color: $gray;
   font-size: 4.3vw;
   @media #{$mq-sm} {
@@ -57,7 +95,7 @@ $base-font-size: 1rem;
   }
 }
 
-.main-btn{
+.main-btn {
   background: $violet;
   border-radius: 0 0.875rem 0.875rem 0.875rem;
   min-width: 9rem;
@@ -77,7 +115,7 @@ $base-font-size: 1rem;
     min-height: 5.25rem;
   }
 
-  &:focus{
+  &:focus {
     box-shadow: none;
     outline: none;
   }
@@ -289,14 +327,15 @@ $base-font-size: 1rem;
   }
 }
 
-.hero{
+.hero {
   padding: 3rem 0;
   @media #{$mq-lg} {
     padding: 4.875rem 0;
   }
-  .title{
+
+  .title {
     color: $charcoal;
-    font-size: 8vw;
+    font-size: 9vw;
     max-width: 19rem;
     margin-bottom: 2rem;
     @media #{$mq-sm} {
@@ -323,14 +362,14 @@ $base-font-size: 1rem;
       max-width: 58rem;
     }
 
-    span{
+    span {
       background-color: $violet;
       border-radius: 0 1.5rem 1.5rem 1.5rem;
       padding: 0.4rem 1rem;
     }
   }
 
-  .main-text{
+  .main-text {
     max-width: 29rem;
     margin-bottom: 2.5rem;
     @media #{$mq-md} {
@@ -341,15 +380,17 @@ $base-font-size: 1rem;
     }
   }
 
-  .main-btn{
+  .main-btn {
     background-color: $night-ride;
     color: #fff;
     min-height: 2.5rem;
     line-height: 1;
     text-transform: uppercase;
-    .img-fluid{
+
+    .img-fluid {
       margin-right: 0.5rem;
     }
+
     @media #{$mq-sm} {
       font-size: $base-font-size*0.75;
     }
@@ -362,9 +403,120 @@ $base-font-size: 1rem;
       border-radius: 0 1.75rem 1.75rem 1.75rem;
       min-width: 23rem;
       min-height: 5.25rem;
-      .img-fluid{
+      .img-fluid {
         width: 1.8rem;
         margin-right: 1.2rem;
+      }
+    }
+  }
+}
+
+.advantages {
+  padding: 3rem 0;
+  @media #{$mq-md} {
+    padding: 5rem 0;
+  }
+  @media #{$mq-lg} {
+    padding: 6rem 0;
+  }
+  @media #{$mq-xl} {
+    padding: 7.5rem 0;
+  }
+  @media #{$mq-xxl} {
+    padding: 10rem 0;
+  }
+
+  .main-text {
+    max-width: 29rem;
+    margin-bottom: 2rem;
+    @media #{$mq-md} {
+      max-width: 39rem;
+    }
+    @media #{$mq-xxl} {
+      max-width: 78rem;
+    }
+  }
+
+  .advantages-carousel {
+    .owl-stage {
+      margin: auto;
+
+      .owl-item {
+        padding: 1.25rem;
+        @media #{$mq-sm} {
+          padding: 2.5rem 0;
+        }
+      }
+    }
+
+    .advantage-card {
+      background: #FFFFFF;
+      box-shadow: 0 0.25rem 1.25rem rgba(130, 130, 130, 0.1);
+      border-radius: 2.5rem;
+      padding: 2.3125rem;
+      width: 19rem;
+      @media #{$mq-sm} {
+        width: 13rem;
+        padding: 1rem;
+        box-shadow: 0 0.25rem 2.5rem rgba(130, 130, 130, 0.1);
+      }
+      @media #{$mq-md} {
+        width: 19rem;
+        padding: 2.3125rem;
+      }
+      @media #{$mq-xxl} {
+        border-radius: 5rem;
+        padding: 4.625rem;
+        width: 38rem;
+      }
+
+      .card-img {
+        width: 3.125rem;
+        height: 3.375rem;
+        margin-bottom: 1.3125rem;
+        @media #{$mq-xxl} {
+          width: 6.25rem;
+          height: 6.75rem;
+          margin-bottom: 2.625rem;
+        }
+      }
+
+      .card-title {
+        font-weight: bold;
+        font-size: $base-font-size*1.375;
+        @media #{$mq-sm} {
+          font-size: $base-font-size;
+        }
+        @media #{$mq-md} {
+          font-size: $base-font-size*1.375;
+        }
+        @media #{$mq-xxl} {
+          font-size: $base-font-size*2.75;
+        }
+      }
+
+      .card-text {
+        color: rgba(0, 0, 0, 0.5);
+        font-size: $base-font-size*0.75;
+        @media #{$mq-xxl} {
+          font-size: $base-font-size*1.5;
+        }
+      }
+    }
+
+    .owl-dots{
+      text-align: center;
+      .owl-dot{
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background-color: $gray;
+        opacity: 0.2;
+        margin: 0 0.25rem;
+        &.active{
+          background-color: $violet;
+          opacity: 1;
+        }
       }
     }
   }
