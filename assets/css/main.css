@@ -711,8 +711,8 @@
   font-size: 0;
   line-height: 0;
   display: block;
-  width: 0.2rem;
-  height: 0.75rem;
+  width: 0.5rem;
+  height: 0.5rem;
   margin: 0 0.25rem;
   border-radius: 50%;
   cursor: pointer;
@@ -1372,9 +1372,14 @@
 .wrapper .testimonials-nav .slick-dots li button {
   border: none;
   background-color: transparent;
-  font-size: 1rem;
+  font-size: 0.75rem;
   color: #7E7E7E;
   margin: 0 0.625rem;
+}
+@media (min-width: 48rem) {
+  .wrapper .testimonials-nav .slick-dots li button {
+    font-size: 1rem;
+  }
 }
 @media (min-width: 160rem) {
   .wrapper .testimonials-nav .slick-dots li button {
