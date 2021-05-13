@@ -53,6 +53,21 @@ $base-font-size: 1rem;
   }
 }
 
+.container{
+  @media #{$mq-lg} {
+    max-width: 79rem;
+    margin: auto;
+  }
+  @media #{$mq-xl} {
+    max-width: 90rem;
+    margin: auto;
+  }
+  @media #{$mq-xxl} {
+    max-width: 100%;
+    padding: 0 25rem;
+  }
+}
+
 .pre-title {
   text-transform: uppercase;
   color: $violet;

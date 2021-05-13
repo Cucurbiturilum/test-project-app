@@ -31,6 +31,25 @@
   }
 }
 
+@media (min-width: 85.375rem) {
+  .container {
+    max-width: 79rem;
+    margin: auto;
+  }
+}
+@media (min-width: 120rem) {
+  .container {
+    max-width: 90rem;
+    margin: auto;
+  }
+}
+@media (min-width: 160rem) {
+  .container {
+    max-width: 100%;
+    padding: 0 25rem;
+  }
+}
+
 .pre-title {
   text-transform: uppercase;
   color: #7F5CA3;
