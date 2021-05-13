@@ -25,6 +25,11 @@
     padding: 0 5.5rem;
   }
 }
+@media (min-width: 160rem) {
+  .container-fluid {
+    padding: 0 25rem;
+  }
+}
 
 .pre-title {
   text-transform: uppercase;
@@ -65,9 +70,9 @@
 }
 @media (min-width: 160rem) {
   .section-title {
-    font-size: 4rem;
+    font-size: 2.5rem;
     margin-bottom: 2rem;
-    max-width: 40rem;
+    max-width: 35rem;
   }
 }
 
@@ -87,7 +92,7 @@
 }
 @media (min-width: 160rem) {
   .main-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -105,10 +110,10 @@
 }
 @media (min-width: 160rem) {
   .main-btn {
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-radius: 0 1.75rem 1.75rem 1.75rem;
-    min-width: 18rem;
-    min-height: 5.25rem;
+    min-width: 16rem;
+    min-height: 4.25rem;
   }
   .main-btn .img-fluid {
     width: 2rem;
@@ -182,10 +187,10 @@
 }
 @media (min-width: 160rem) {
   .social-buttons .main-btn {
-    font-size: 1.85rem;
+    font-size: 1.35rem;
     border-radius: 0 1.75rem 1.75rem 1.75rem;
-    min-width: 23rem;
-    min-height: 5.25rem;
+    min-width: 18rem;
+    min-height: 4.25rem;
   }
   .social-buttons .main-btn .img-fluid {
     width: 1.8rem;
@@ -342,8 +347,8 @@
 }
 @media (min-width: 160rem) {
   .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
-    font-size: 2rem;
-    line-height: 8.75rem;
+    font-size: 1.3rem;
+    line-height: 6rem;
   }
 }
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:after {
@@ -378,8 +383,8 @@
 }
 @media (min-width: 160rem) {
   .navbar .login-link {
-    font-size: 2rem;
-    padding: 1.2rem 5.9rem;
+    font-size: 1.3rem;
+    padding: 1rem 4rem;
   }
 }
 
@@ -425,9 +430,9 @@
 }
 @media (min-width: 160rem) {
   .hero .title {
-    font-size: 8rem;
-    line-height: 8.75rem;
-    max-width: 58rem;
+    font-size: 5.5rem;
+    line-height: 6rem;
+    max-width: 55rem;
   }
 }
 .hero .title span {
@@ -446,7 +451,7 @@
 }
 @media (min-width: 160rem) {
   .hero .main-text {
-    max-width: 58rem;
+    max-width: 40rem;
   }
 }
 
@@ -553,7 +558,7 @@
 }
 @media (min-width: 160rem) {
   .advantages .advantages-carousel .advantage-card .card-title {
-    font-size: 2.75rem;
+    font-size: 2.2rem;
   }
 }
 .advantages .advantages-carousel .advantage-card .card-text {
@@ -562,7 +567,7 @@
 }
 @media (min-width: 160rem) {
   .advantages .advantages-carousel .advantage-card .card-text {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -635,7 +640,7 @@
 }
 @media (min-width: 160rem) {
   .recommended .recommended-carousel .recommended-item .item-title {
-    font-size: 6rem;
+    font-size: 4.5rem;
   }
 }
 .recommended .recommended-carousel .recommended-item .main-text {
@@ -770,7 +775,7 @@
 }
 @media (min-width: 160rem) {
   .wrapper:nth-of-type(5) .option-card .card-text {
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
 }
 .wrapper:nth-of-type(5) .option-card .option-card-img {
@@ -1015,6 +1020,11 @@
 .wrapper:nth-of-type(7) .col-6:first-of-type {
   border-right: 1px dashed #B4B4B4;
 }
+@media (min-width: 160rem) {
+  .wrapper:nth-of-type(7) .col-6:first-of-type {
+    padding-right: 10rem;
+  }
+}
 @media (min-width: 85.375rem) {
   .wrapper:nth-of-type(7) .col-6:last-of-type {
     padding-left: 10rem;
@@ -1098,7 +1108,7 @@
 }
 @media (min-width: 160rem) {
   .wrapper .accordion .accordion-item .accordion-header .accordion-button, .wrapper .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
 }
 .wrapper .accordion .accordion-item .accordion-header .accordion-button:focus, .wrapper .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed):focus {
@@ -1107,10 +1117,11 @@
 }
 .wrapper .accordion .accordion-item .accordion-header .accordion-button:after, .wrapper .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed):after {
   background-image: url(../img/plus.svg);
+  padding-left: 0.8rem;
 }
 @media (min-width: 160rem) {
   .wrapper .accordion .accordion-item .accordion-header .accordion-button:after, .wrapper .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed):after {
-    width: 2.5rem;
+    width: 2.8rem;
     height: 2.5rem;
     background-size: 2.5rem;
   }
@@ -1139,8 +1150,8 @@
 }
 @media (min-width: 160rem) {
   .wrapper .accordion .accordion-item .accordion-header:before {
-    width: 1.875rem;
-    height: 1.875rem;
+    width: 1.5rem;
+    height: 1.5rem;
     box-shadow: 0 0 0 1.875rem rgba(127, 92, 163, 0.25);
     margin-right: 3.75rem;
   }
@@ -1157,7 +1168,7 @@
 }
 @media (min-width: 160rem) {
   .wrapper .accordion .accordion-item .accordion-body {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-top: 3rem;
   }
 }
@@ -1201,9 +1212,9 @@
 }
 @media (min-width: 160rem) {
   .wrapper .testimonials .slick-list .slick-track .testimonial-card {
-    width: 65rem;
-    height: 33rem;
-    padding: 7.125rem 5.875rem;
+    width: 45rem;
+    height: 26rem;
+    padding: 4.5rem 3.875rem;
   }
 }
 .wrapper .testimonials .slick-list .slick-track .testimonial-card .card-header {
@@ -1229,8 +1240,8 @@
 }
 @media (min-width: 160rem) {
   .wrapper .testimonials .slick-list .slick-track .testimonial-card .card-header .user-avatar {
-    width: 7.125rem;
-    height: 7.125rem;
+    width: 5rem;
+    height: 5rem;
   }
 }
 .wrapper .testimonials .slick-list .slick-track .testimonial-card .card-header .user-data .user-name {
@@ -1246,7 +1257,7 @@
 }
 @media (min-width: 160rem) {
   .wrapper .testimonials .slick-list .slick-track .testimonial-card .card-header .user-data .user-name {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 .wrapper .testimonials .slick-list .slick-track .testimonial-card .card-header .user-data .user-sign {
@@ -1261,7 +1272,7 @@
 }
 @media (min-width: 160rem) {
   .wrapper .testimonials .slick-list .slick-track .testimonial-card .card-header .user-data .user-sign {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 .wrapper .testimonials .slick-list .slick-track .testimonial-card .card-body {
@@ -1291,7 +1302,7 @@
 }
 @media (min-width: 160rem) {
   .wrapper .testimonials .slick-list .slick-track .testimonial-card .card-body .card-text {
-    font-size: 1.75rem;
+    font-size: 1.3rem;
   }
 }
 .wrapper .testimonials .slick-list .slick-track .testimonial-card .card-footer {
@@ -1315,7 +1326,7 @@
 }
 @media (min-width: 160rem) {
   .wrapper .testimonials .slick-list .slick-track .testimonial-card .card-footer .card-text {
-    font-size: 1.75rem;
+    font-size: 1.3rem;
   }
 }
 .wrapper .testimonials-nav {
@@ -1338,7 +1349,7 @@
 }
 @media (min-width: 160rem) {
   .wrapper .testimonials-nav {
-    margin-top: 10rem;
+    margin-top: 7rem;
   }
 }
 .wrapper .testimonials-nav .slick-prev, .wrapper .testimonials-nav .slick-next {
@@ -1350,7 +1361,7 @@
 }
 @media (min-width: 160rem) {
   .wrapper .testimonials-nav .slick-prev, .wrapper .testimonials-nav .slick-next {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 .wrapper .testimonials-nav .slick-prev {
@@ -1382,7 +1393,7 @@
 }
 @media (min-width: 160rem) {
   .wrapper .testimonials-nav .slick-dots li button {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 .wrapper .testimonials-nav .slick-dots li.slick-active button {
@@ -1434,7 +1445,7 @@ footer .nav-footer .list-item-link {
 }
 @media (min-width: 160rem) {
   footer .nav-footer .list-item-link {
-    font-size: 2rem;
+    font-size: 1.35rem;
   }
 }
 footer .social-networks {
