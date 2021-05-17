@@ -21,7 +21,7 @@ $(document).ready(function () {
         ]
     });
 
-    $(".recommended-carousel").slick({
+    $('.recommended-carousel').slick({
         infinite: true,
         arrows: false,
         dots: false,
@@ -39,11 +39,24 @@ $(document).ready(function () {
         ]
     });
 
+    $('.progress-bar-container-mobile .item').hide();
+    $('.progress-bar-container-mobile .item [data-slick-index=0]').parent().show();
+    $('.recommended-carousel').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+        $('.progress-bar-container-mobile .item').hide();
+        $('.progress-bar-container-mobile .item [data-slick-index=' + nextSlide +']').parent().show();
+        startProgressbar();
+    });
+
     //ticking machine
     var percentTime;
     var tick;
     var time = .1;
     var progressBarIndex = 0;
+
+    $('.progress-bar-container-mobile .progress-bar').each(function (index) {
+        var progress = "<div class='inProgress inProgress" + index + "'></div>";
+        $(this).html(progress);
+    });
 
     $('.progress-bar-container .progress-bar').each(function (index) {
         var progress = "<div class='inProgress inProgress" + index + "'></div>";
@@ -68,7 +81,7 @@ $(document).ready(function () {
             if (percentTime >= 100) {
                 $('.single-item').slick('slickNext');
                 progressBarIndex++;
-                if (progressBarIndex > 2) {
+                if (progressBarIndex > 3) {
                     progressBarIndex = 0;
                 }
                 startProgressbar();
@@ -93,15 +106,16 @@ $(document).ready(function () {
         startProgressbar();
     });
 
-    $(".testimonials").slick({
-        appendArrows:'.testimonials-nav',
-        appendDots:'.testimonials-nav',
+
+    $('.testimonials').slick({
+        appendArrows: '.testimonials-nav',
+        appendDots: '.testimonials-nav',
         draggable: true,
         dots: true,
-        nextArrow:'<button type="button" class="slick-next">&#8594;</button>',
+        nextArrow: '<button type="button" class="slick-next">&#8594;</button>',
         prevArrow: '<button type="button" class="slick-prev">&#8592;</button>',
         slidesToShow: 1,
-        slidesToScroll:1,
+        slidesToScroll: 1,
         variableWidth: true,
         initialSlide: 0,
         responsive: [
