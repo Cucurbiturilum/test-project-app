@@ -705,7 +705,8 @@
   font-size: 0;
   line-height: 0;
   display: block;
-  height: 12px;
+  height: 0.75rem;
+  width: 0.75rem;
   margin: 0 0.25rem;
   border-radius: 50%;
   cursor: pointer;
@@ -1329,9 +1330,14 @@
 .wrapper .testimonials-nav .slick-prev, .wrapper .testimonials-nav .slick-next {
   border: none;
   background-color: transparent;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #7E7E7E;
   font-weight: 100;
+}
+@media (min-width: 48rem) {
+  .wrapper .testimonials-nav .slick-prev, .wrapper .testimonials-nav .slick-next {
+    font-size: 1.5rem;
+  }
 }
 @media (min-width: 160rem) {
   .wrapper .testimonials-nav .slick-prev, .wrapper .testimonials-nav .slick-next {
@@ -1356,7 +1362,7 @@
 .wrapper .testimonials-nav .slick-dots li button {
   border: none;
   background-color: transparent;
-  font-size: 0.75rem;
+  font-size: 0.6rem;
   color: #7E7E7E;
   margin: 0 0.625rem;
 }

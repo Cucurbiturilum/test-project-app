@@ -39,19 +39,20 @@ $(document).ready(function () {
         ]
     });
 
-    $('.progress-bar-container-mobile .item').hide();
-    $('.progress-bar-container-mobile .item [data-slick-index=0]').parent().show();
-    $('.recommended-carousel').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-        $('.progress-bar-container-mobile .item').hide();
-        $('.progress-bar-container-mobile .item [data-slick-index=' + nextSlide +']').parent().show();
-        startProgressbar();
-    });
-
     //ticking machine
     var percentTime;
     var tick;
     var time = .1;
     var progressBarIndex = 0;
+
+    $('.progress-bar-container-mobile .item').hide();
+    $('.progress-bar-container-mobile .item [data-slick-index=0]').parent().show();
+    $('.recommended-carousel').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+        $('.progress-bar-container-mobile .item').hide();
+        $('.progress-bar-container-mobile .item [data-slick-index=' + nextSlide +']').parent().show();
+        progressBarIndex = nextSlide;
+        startProgressbar();
+    });
 
     $('.progress-bar-container-mobile .progress-bar').each(function (index) {
         var progress = "<div class='inProgress inProgress" + index + "'></div>";
@@ -80,11 +81,6 @@ $(document).ready(function () {
             });
             if (percentTime >= 100) {
                 $('.single-item').slick('slickNext');
-                progressBarIndex++;
-                if (progressBarIndex > 3) {
-                    progressBarIndex = 0;
-                }
-                startProgressbar();
             }
         }
     }
