@@ -27,6 +27,14 @@
   }
 }
 
+@media (min-width: 160rem) {
+  .container {
+    padding: 0 20rem;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
 .pre-title {
   text-transform: uppercase;
   color: #7F5CA3;
@@ -36,7 +44,7 @@
 }
 @media (min-width: 160rem) {
   .pre-title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 1rem;
   }
 }
@@ -61,7 +69,7 @@
 }
 @media (min-width: 160rem) {
   .section-title {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 2rem;
     max-width: 40rem;
   }
@@ -83,7 +91,7 @@
 }
 @media (min-width: 160rem) {
   .main-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -101,7 +109,7 @@
 }
 @media (min-width: 160rem) {
   .main-btn {
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-radius: 0 1.75rem 1.75rem 1.75rem;
     min-width: 18rem;
     min-height: 5.25rem;
@@ -173,7 +181,7 @@
 }
 @media (min-width: 160rem) {
   .social-buttons .main-btn {
-    font-size: 1.85rem;
+    font-size: 1.3rem;
     border-radius: 0 1.75rem 1.75rem 1.75rem;
     min-width: 23rem;
     min-height: 5.25rem;
@@ -331,7 +339,7 @@
 }
 @media (min-width: 160rem) {
   .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 8.75rem;
   }
 }
@@ -415,7 +423,7 @@
 }
 @media (min-width: 160rem) {
   .hero .title {
-    font-size: 8rem;
+    font-size: 6rem;
     line-height: 8.75rem;
     max-width: 58rem;
   }
@@ -626,7 +634,7 @@
 }
 @media (min-width: 160rem) {
   .recommended .recommended-carousel .recommended-item .item-title {
-    font-size: 6rem;
+    font-size: 4.5rem;
   }
 }
 .recommended .recommended-carousel .recommended-item .main-text {
@@ -751,7 +759,7 @@
 }
 @media (min-width: 160rem) {
   .wrapper:nth-of-type(5) .option-card .card-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 .wrapper:nth-of-type(5) .option-card .option-card-img {
@@ -1080,7 +1088,7 @@
 }
 @media (min-width: 160rem) {
   .wrapper .accordion .accordion-item .accordion-header .accordion-button, .wrapper .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
 }
 .wrapper .accordion .accordion-item .accordion-header .accordion-button:focus, .wrapper .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed):focus {
@@ -1092,9 +1100,9 @@
 }
 @media (min-width: 160rem) {
   .wrapper .accordion .accordion-item .accordion-header .accordion-button:after, .wrapper .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed):after {
-    width: 2.5rem;
-    height: 2.5rem;
-    background-size: 2.5rem;
+    width: 2rem;
+    height: 2rem;
+    background-size: 2rem;
   }
 }
 .wrapper .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed):after {
@@ -1121,9 +1129,9 @@
 }
 @media (min-width: 160rem) {
   .wrapper .accordion .accordion-item .accordion-header:before {
-    width: 1.875rem;
-    height: 1.875rem;
-    box-shadow: 0 0 0 1.875rem rgba(127, 92, 163, 0.25);
+    width: 1.3rem;
+    height: 1.3rem;
+    box-shadow: 0 0 0 1.3rem rgba(127, 92, 163, 0.25);
     margin-right: 3.75rem;
   }
 }
@@ -1139,7 +1147,7 @@
 }
 @media (min-width: 160rem) {
   .wrapper .accordion .accordion-item .accordion-body {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-top: 3rem;
   }
 }
@@ -1411,7 +1419,7 @@ footer .nav-footer .list-item-link {
 }
 @media (min-width: 160rem) {
   footer .nav-footer .list-item-link {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 footer .social-networks {
