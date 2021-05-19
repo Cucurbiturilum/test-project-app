@@ -31,13 +31,8 @@
   text-transform: uppercase;
   color: #7F5CA3;
   letter-spacing: 0.01rem;
-  font-size: 3.7vw;
+  font-size: 0.875rem;
   margin-bottom: 0.5rem;
-}
-@media (min-width: 48rem) {
-  .pre-title {
-    font-size: 0.875rem;
-  }
 }
 @media (min-width: 160rem) {
   .pre-title {
@@ -48,7 +43,7 @@
 
 .section-title {
   color: #2E2E2E;
-  font-size: 7vw;
+  font-size: 1.64rem;
   font-weight: bold;
   max-width: 20rem;
   line-height: 1.4;
@@ -74,7 +69,7 @@
 
 .main-text {
   color: #7E7E7E;
-  font-size: 3.8vw;
+  font-size: 0.875rem;
 }
 @media (min-width: 48rem) {
   .main-text {
@@ -169,11 +164,6 @@
 }
 .social-buttons .main-btn .img-fluid {
   margin-right: 0.5rem;
-}
-@media (min-width: 48rem) {
-  .social-buttons .main-btn {
-    font-size: 0.75rem;
-  }
 }
 @media (min-width: 64rem) {
   .social-buttons .main-btn {
@@ -325,7 +315,7 @@
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
   color: #454545;
   position: relative;
-  font-size: 6vw;
+  font-size: 1.3rem;
 }
 @media (min-width: 48rem) {
   .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
@@ -392,7 +382,7 @@
 }
 .hero .title {
   color: #464646;
-  font-size: 9vw;
+  font-size: 2.1rem;
   max-width: 19rem;
   margin-bottom: 2rem;
   font-weight: bold;
@@ -616,7 +606,7 @@
 .recommended .recommended-carousel .recommended-item .item-title {
   color: #fff;
   font-weight: 700;
-  font-size: 7vw;
+  font-size: 1.65rem;
   line-height: 1.4;
 }
 @media (min-width: 48rem) {
@@ -746,15 +736,10 @@
 }
 .wrapper:nth-of-type(5) .option-card .card-text {
   color: #7E7E7E;
-  font-size: 3vw;
+  font-size: 0.7rem;
 }
 .wrapper:nth-of-type(5) .option-card .card-text br {
   display: none;
-}
-@media (min-width: 48rem) {
-  .wrapper:nth-of-type(5) .option-card .card-text {
-    font-size: 0.7rem;
-  }
 }
 @media (min-width: 64rem) {
   .wrapper:nth-of-type(5) .option-card .card-text {
@@ -1023,13 +1008,13 @@
 }
 @media (max-width: 767px) {
   .wrapper:nth-of-type(7) .pre-title {
-    font-size: 3.5vw;
+    font-size: 0.82rem;
   }
   .wrapper:nth-of-type(7) .section-title {
-    font-size: 5vw;
+    font-size: 1.1rem;
   }
   .wrapper:nth-of-type(7) .main-text {
-    font-size: 3.5vw;
+    font-size: 0.82rem;
   }
 }
 @media (min-width: 48rem) {
@@ -1231,15 +1216,10 @@
   }
 }
 .wrapper .testimonials .slick-list .slick-track .testimonial-card .card-header .user-data .user-name {
-  font-size: 4.3vw;
+  font-size: 1rem;
   color: #2E2E2E;
   font-weight: bold;
   margin-bottom: 0;
-}
-@media (min-width: 48rem) {
-  .wrapper .testimonials .slick-list .slick-track .testimonial-card .card-header .user-data .user-name {
-    font-size: 1rem;
-  }
 }
 @media (min-width: 160rem) {
   .wrapper .testimonials .slick-list .slick-track .testimonial-card .card-header .user-data .user-name {
@@ -1247,7 +1227,7 @@
   }
 }
 .wrapper .testimonials .slick-list .slick-track .testimonial-card .card-header .user-data .user-sign {
-  font-size: 3.73vw;
+  font-size: 0.875rem;
   color: #7E7E7E;
   margin-bottom: 0;
 }
@@ -1278,7 +1258,7 @@
   }
 }
 .wrapper .testimonials .slick-list .slick-track .testimonial-card .card-body .card-text {
-  font-size: 3.8vw;
+  font-size: 1rem;
   color: #2E2E2E;
 }
 @media (min-width: 48rem) {
@@ -1302,7 +1282,7 @@
   }
 }
 .wrapper .testimonials .slick-list .slick-track .testimonial-card .card-footer .card-text {
-  font-size: 3.8vw;
+  font-size: 0.875rem;
   color: #B4B4B4;
 }
 @media (min-width: 48rem) {
@@ -1421,7 +1401,7 @@ footer .nav-footer {
 footer .nav-footer .list-item-link {
   text-decoration: none;
   color: #7E7E7E;
-  font-size: 4.7vw;
+  font-size: 1.1rem;
   line-height: 2;
 }
 @media (min-width: 48rem) {
